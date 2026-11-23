@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+ <style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        color: beige;
+    }
+    td, th {
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;
+    }
+    tr {
+        background-color: darkslategray;
+    }
+ </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+        <col span="2" style="background-color: blue;"/>
+        </colgroup>
+        <tr>
+            <th>Country</th>
+            <th>Country CODE</th>
+            <th>email</th>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>IN</td>
+            <td>india@gmail.com</td>
+        </tr>
+        <tr>
+            <td>United Stats Of America</td>
+            <td>USA</td>
+            <td>USA@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Japan</td>
+            <td>JP</td>
+            <td>jp@gmail.com</td>
+        </tr>
+        <tr>
+            <td>China</td>
+            <td>CN</td>
+            <td>CN@gmail.com</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>    
+            <th colspan="2">Country</th>
+            <td>India</td>
+            <td>Japan</td>
+        </tr>
+        <tr>
+            <th>CODE</th>
+            <td>IN</td>
+            <td>JP</td>
+        </tr>
+    </table>
+    <table>
+        <caption>caption is captioning</caption>
+        <thead>
+            <tr>
+                <th>items</th>
+                <th>expenditure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>donuts</th>
+                <td>3,000</td>
+            </tr>
+            <tr>
+                <th>stationary</th>
+                <td>18,000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>TOTAL'S</th>
+                <td>21,000</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>
